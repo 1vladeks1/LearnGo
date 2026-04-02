@@ -23,7 +23,6 @@ func main() {
 	for id, pings := range server{
 		var midPing = 0
 
-		
 		fmt.Printf("Пинг для %11s:\n", id)
 		
 		for p := 0; p < len(pings); p++{
